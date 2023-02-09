@@ -55,7 +55,7 @@ app = express(); // Initializing app
 
 // Creating a cron job which runs on every 30 second
 cron.schedule("*/30 * * * * *", function() {
-  console.log("running a task every 10 second");
+  console.log("running a task every 30 second");
   refreshDB();
 });
 
