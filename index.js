@@ -51,7 +51,7 @@ async function _updateNotionTable(pageId, currentPrice) {
   })
 }
 
-app = express(); // Initializing app
+// app = express(); // Initializing app
 
 // Creating a cron job which runs on every 30 second
 cron.schedule("*/30 * * * * *", function() {
@@ -59,4 +59,4 @@ cron.schedule("*/30 * * * * *", function() {
   refreshDB();
 });
 
-app.listen(3000);
+// app.listen(3000);
