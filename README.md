@@ -1,20 +1,10 @@
-# Notion API - Crypto/Foreign Currency Prices
+# Notion Live Crypto Prices
 
-## Project Description:
-[Medium Post](https://medium.com/@abraaorl/managing-financial-assets-with-notions-api-4945616d64f5)
+### Replace Environment Vars
+Make sure to replace .env vars with real ones
 
-## Setup:
-
-### Notion Credentials
-Replace the content of the '.env' file with your own.
-
-### Intall 
-
+### Process 
 ```
 npm install
-```
-
-## Run:
-```
-node start
+npm start
 ```
